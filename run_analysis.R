@@ -1,4 +1,4 @@
-require(dplyr)
+require(plyr); require(dplyr)
 old_wd<-getwd()
 setwd("~/Desktop/coursera/datascience/03_get_and_clean/UCI HAR Dataset/")
 
@@ -47,5 +47,5 @@ names(subs_syx_all)<-f
 byS_byA_syx<-group_by(subs_syx_all,subject,activity)
 tidy_mean_subs_syx<-summarise_each(byS_byA_syx,funs(mean))
 setwd(old_wd)
-write.table("tidy_mean_subs_syx.txt", row.name=FALSE)
+write.table(tidy_mean_subs_syx,"tidy_mean_subs_syx.txt", row.name=FALSE)
 rm(list=c("f","list4mean","list4std","old_wd", "byS_byA_syx", "features"))
