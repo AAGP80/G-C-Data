@@ -13,9 +13,9 @@ The final format is a wide tidy dataset in the form reported in the Hadley Wickh
 ## Columns description
 
 Column	name
-1	Subject
-2	Activity
-3	tBodyAcc_mean_X
+1.	Subject
+2.	Activity
+3.	tBodyAcc_mean_X
 4	tBodyAcc_mean_Y
 5	tBodyAcc_mean_Z
 6	tGravityAcc_mean_X
