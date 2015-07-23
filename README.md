@@ -1,5 +1,5 @@
 ## Run_analysis readme
-It is necessary the dplyr package.
+Both plyr and dplyr package are necessary.
 
 It is assumed that the UCI HAR Dataset was downloaded in 
 "~/Desktop/coursera/datascience/03_get_and_clean/UCI HAR Dataset" if the destination 
